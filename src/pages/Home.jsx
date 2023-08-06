@@ -1,9 +1,12 @@
 import React from 'react'
-import { GitHub } from '@mui/icons-material'
-import { LinkedIn } from '@mui/icons-material'
-import { Instagram } from '@mui/icons-material'
 import { Tooltip } from '@mui/material';
 import '../styles/Home.css'
+import CssIcon from '@mui/icons-material/Css';
+import CodeIcon from '@mui/icons-material/Code';
+import HtmlIcon from '@mui/icons-material/Html';
+import JavascriptIcon from '@mui/icons-material/Javascript';
+import TerminalIcon from '@mui/icons-material/Terminal';
+
 
 function Home() {
   return (
@@ -11,10 +14,12 @@ function Home() {
       <div className='about'>
         <h2>Hi, I'm Christian Salinas</h2>
         <div className='prompt'>
-          <p className='hoverSocials'>Junior Developer with a passion for learning <Tooltip title='click on my socials to find out more!' >🚀</Tooltip> </p>
-          <a href='https://www.instagram.com/c.salinas90/'><Instagram /></a>
-          <a href='https://github.com/Csalinas1009'><GitHub /></a>
-          <a href='https://linkedin.com/in/christiansalinas09'><LinkedIn /></a>
+          <p className='hoverSocials'>Junior Developer with a passion for learning <Tooltip title='click on my socials to learn more!' >🚀</Tooltip> </p>
+          <HtmlIcon/>
+          <JavascriptIcon/>
+          <CssIcon/>
+          <CodeIcon/>
+          <TerminalIcon/>
         </div>
       </div>
       <div className='skills'>
@@ -22,7 +27,7 @@ function Home() {
         <ol className='list'>
           <li className='item'>
             <h2>Front-End</h2>
-            <span>ReactJS, ViteJs, HTML, CSS, NPM, BootStrap, MaterialUI</span>
+            <span>ReactJS, HTML, CSS, NPM, BootStrap</span>
           </li>
           <li className='item'>
             <h2>Back-End</h2>
@@ -30,7 +35,7 @@ function Home() {
           </li>
           <li className='item'>
             <h2>Languages</h2>
-            <span>JavaScript, Python</span>
+            <span>JavaScript</span>
           </li>
         </ol>
       </div>

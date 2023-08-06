@@ -19,7 +19,7 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">Customer Service Representative</h3>
           <h4 className="vertical-timeline-element-subtitle">Westwood, NJ</h4>
           <p>
-            Order entry, Order status, Sales
+            Order entry, Order status, Troubleshooting, Returns and Warranty service
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -31,7 +31,7 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">New Jersey Intitute of Technology</h3>
           <h4 className="vertical-timeline-element-subtitle">Newark, NJ</h4>
           <p>
-            Software Development Bootcamp
+            Full Stack software development Bootcamp
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -42,7 +42,7 @@ function Experience() {
         >
           <h3 className="vertical-timeline-element-title">Junior Web Designer</h3>
           <p>
-            Developing your next big project!
+            Developing your next big project! 🚧
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
