@@ -8,9 +8,5 @@ export const ProjectList = [
         image: Milestone2,
         skills: "MongoDB, ExpressJs, ReactJs, Node.js"
 
-    },
-    {
-        name: "Portfolio",
-        skills: "Mern"
     }
 ]
