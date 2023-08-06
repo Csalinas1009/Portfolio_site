@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
+import ProjectDisplay from "./pages/ProjectDisplay";
 import Projects from "./pages/Projects";
 import Experience from './pages/Experience';
 import Navbar from "./components/Navbar";
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/:id" element={<ProjectDisplay/>}/>
           <Route path="/experience" element={<Experience />} />
         </Routes>
       <Footer />
