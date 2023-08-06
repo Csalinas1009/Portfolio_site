@@ -4,10 +4,14 @@
     font-family: "Arial", sans-serif;
     color: #3e497a;
   }
+
+.hoverSocials{
+  cursor: help;
+}
   
   .about {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(75vh - 100px);
     display: flex;
     flex-direction: column;
     justify-content: center;

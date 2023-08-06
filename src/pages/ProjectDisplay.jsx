@@ -3,6 +3,7 @@ import { ProjectList } from '../helpers/ProjectList';
 import {useParams} from 'react-router-dom';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import '../styles/ProjectDisplay.css'
+import { Tooltip } from '@mui/material';
 
 function ProjectDisplay() {
     const { id } = useParams();
@@ -14,7 +15,9 @@ function ProjectDisplay() {
         <p>
           <b>Skills:</b> {project.skills}
         </p>
-        <GitHubIcon />
+        <Tooltip title='click to see the project!'>
+        <a href="https://github.com/Csalinas1009/milestone-project-2"><GitHubIcon/></a>
+        </Tooltip>
       </div>
     );
   }

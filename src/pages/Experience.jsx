@@ -41,7 +41,6 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">Junior Web Designer</h3>
-          <h4 className="vertical-timeline-element-subtitle">Anwhere, USA</h4>
           <p>
             Developing your next big project!
           </p>
