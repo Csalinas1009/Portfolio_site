@@ -15,11 +15,11 @@ function Home() {
         <h2>Hi, I'm Christian Salinas</h2>
         <div className='prompt'>
           <p className='hoverSocials'>Junior Developer with a passion for learning <Tooltip title='click on my socials to learn more!' >🚀</Tooltip> </p>
-          <HtmlIcon/>
-          <JavascriptIcon/>
-          <CssIcon/>
-          <CodeIcon/>
-          <TerminalIcon/>
+          <HtmlIcon />
+          <JavascriptIcon />
+          <CssIcon />
+          <CodeIcon />
+          <TerminalIcon />
         </div>
       </div>
       <div className='skills'>
